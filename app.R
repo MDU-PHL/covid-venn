@@ -9,16 +9,15 @@ lineages <- tryCatch({
     lineages <- read.csv(url)
 },
 error = function(cond) {
-    print(cond)
     message(paste("URL not working:", url))
-    message(paste("Loading local DB:", url))
+    message(paste("Loading local DB..."))
     lineages <- read.csv('lineages.csv')
     return(lineages)
 })
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(# Application title
-    titlePanel("SARS-CoV-2 Variants Venn"),
+    titlePanel("Covid Venn"),
 
     # Sidebar
     sidebarLayout(
@@ -42,8 +41,8 @@ ui <- fluidPage(# Application title
             radioButtons('show_mutations', 'Show mutations', c('yes', 'no'),
                          'yes'),
             HTML(
-                'Created using data from the <a href="https://www.ncbi.nlm.nih.gov/activ">ncbi SARS-CoV-2 Variants</a> Overview.'
-            ),
+                'Created using data from the <a href="https://www.ncbi.nlm.nih.gov/activ">NCBI SARS-CoV-2 Variants Overview</a>. See <a href="https://github.com/MDU-PHL/covid-venn">GitHub</a> for more details.'
+                ),
         ),
         # Show Venn
         mainPanel(fluidRow(align = "center",
