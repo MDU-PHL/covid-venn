@@ -1,6 +1,6 @@
 # Covid Venn
 
-Shiny app for creating venn diagrams of covid variant/lineage mutations.
+Shiny app for creating Venn diagrams of covid variant/lineage mutations.
 
 ![](images/count.png)
 
