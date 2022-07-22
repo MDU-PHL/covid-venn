@@ -43,4 +43,4 @@ Mutation labels can be shown using the *Show mutations* radio buttons.
 
 ## Data
 
-Covid-venn uses data from the [ncbi](https://www.ncbi.nlm.nih.gov/activ) and downloads the latest version of the database each time it runs. If the database is unavailable covid-venn will default to using a local copy of the database (which may be out of data).
+Covid-venn uses data from the [ncbi](https://www.ncbi.nlm.nih.gov/activ) and downloads the latest version of the database each time it runs. If the database is unavailable covid-venn will default to using a local copy of the database (which may be out of date).
