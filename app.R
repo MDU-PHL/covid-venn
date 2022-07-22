@@ -34,9 +34,9 @@ ui <- fluidPage(# Application title
             checkboxGroupInput(
                 'selected_types',
                 'Types of mutations',
-                selected = c('VinTEBS', 'VinOEBS'),
-                choiceNames = c('VinTEBS (therapeutic)', 'VinOEBS (other)'),
-                choiceValues = c('VinTEBS', 'VinOEBS')
+                selected = c('aa_definition', 'VinTEBS', 'VinOEBS'),
+                choiceNames = c('Defining', 'VinTEBS (therapeutic)', 'VinOEBS (other)'),
+                choiceValues = c('aa_definition', 'VinTEBS', 'VinOEBS')
             ),
             radioButtons('show_mutations', 'Show mutations', c('yes', 'no'),
                          'yes'),
