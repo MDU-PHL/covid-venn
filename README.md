@@ -37,7 +37,7 @@ Navigate to the URL printed in the console.
 
 By default 3 lineages are selected. You can modify this selection using the *Lineages* select input. Up to 4 lineages can be compared. 
 
-There are three types of mutations that can be selected: Defining, VinTEBS (Variations in therapeutic epitopes or binding sites), and (VinOEBS= Variations in other epitopes or binding sites).
+There are three types of mutations that can be selected: Defining, VinTEBS (Variations in therapeutic epitopes or binding sites), and VinOEBS (Variations in other epitopes or binding sites).
 
 Mutation labels can be shown using the *Show mutations* radio buttons. 
 
