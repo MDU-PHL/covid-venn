@@ -27,14 +27,14 @@ ui <- fluidPage(# Application title
                 'Lineages',
                 lineages$lineage,
                 options = list(maxItems = 4),
-                selected = c("BA.5", "BA.1", "BA.2.75"),
+                selected = c("BA.1", "BA.5", "BA.2.75"),
                 multiple = T
             ),
 
             checkboxGroupInput(
                 'selected_types',
                 'Types of mutations',
-                selected = c('aa_definition', 'VinTEBS', 'VinOEBS'),
+                selected = c('aa_definition'),
                 choiceNames = c('Defining', 'VinTEBS (therapeutic)', 'VinOEBS (other)'),
                 choiceValues = c('aa_definition', 'VinTEBS', 'VinOEBS')
             ),
