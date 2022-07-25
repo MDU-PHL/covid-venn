@@ -17,7 +17,7 @@ error = function(cond) {
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(# Application title
-    titlePanel("Covid Venn"),
+    titlePanel("SARS-CoV-2 Lineage Venn"),
 
     # Sidebar
     sidebarLayout(
