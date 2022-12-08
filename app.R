@@ -3,7 +3,7 @@ library(VennDiagram)
 library(RColorBrewer)
 
 url <-
-    'https://www.ncbi.nlm.nih.gov/genomes/VirusVariation/vvsearch_dev/?report=download_lineages'
+    'https://www.ncbi.nlm.nih.gov/genomes/VirusVariation/activ/?report=download_lineages'
 # lineages <- read.csv('lineages.csv')
 lineages <- tryCatch({
     lineages <- read.csv(url)
